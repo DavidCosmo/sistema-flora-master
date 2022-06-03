@@ -4,7 +4,7 @@ if(isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['senha']) &
 !empty($_POST['nome']) && isset($_POST['sobrenome']) && !empty($_POST['sobrenome']) && isset($_POST['cpf']) && !empty($_POST['cpf'])){
 
 
-require 'conexao.php';
+require '../controller/conexao.php';
 require 'usuario.class.php';
 
 $u = new Usuario();

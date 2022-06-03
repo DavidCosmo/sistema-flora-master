@@ -7,7 +7,7 @@ session_start();
     isset($_POST['cpf']) && !empty($_POST['cpf'])){
 
         
-        require 'conexao.php';
+        require '../controller/conexao.php';
         require 'usuario.class.php';
 
         $u = new Usuario();
